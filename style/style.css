@@ -1,0 +1,77 @@
+/* Header Style */
+.header {
+  background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url(../resources/Banner\ Image.png);
+  background-repeat: no-repeat;
+  height: 600px;
+  width: 1320px;
+  border-radius: 16px;
+}
+.banner-text {
+  text-align: center;
+  color: #fff;
+  font-family: Merriweather;
+  padding: 150px;
+}
+.new-year {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.new-year-cele {
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 95px;
+}
+
+/* Main Style */
+
+.main-text {
+  text-align: center;
+  font-family: Inter;
+  font-style: normal;
+  line-height: normal;
+  margin-top: 100px;
+}
+.main-text-head {
+  color: #f00;
+  font-size: 88px;
+  font-weight: 700;
+}
+.main-text-normal {
+  color: #f00;
+  font-size: 24px;
+  font-weight: 500;
+}
+.main-text-sec {
+  color: #070211;
+  font-size: 48px;
+  font-weight: 700;
+}
+.main-new-year-photo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.main-info {
+  background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("../resources/Vectorrr.png");
+  width: 1320px;
+  height: 600px;
+  flex-shrink: 0;
+  display: flex;
+  color: #fff;
+  font-family: Merriweather;
+  margin-top: 90px;
+}
+.main-info .main-info-text h1 {
+  width: 642px;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 88px;
+  letter-spacing: 7.04px;
+  padding: 50px;
+}
