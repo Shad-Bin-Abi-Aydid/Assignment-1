@@ -73,5 +73,116 @@
   font-weight: 900;
   line-height: 88px;
   letter-spacing: 7.04px;
-  padding: 50px;
+  padding-top: 70px;
+  padding-left: 100px;
+}
+.main-info .main-info-text p {
+  width: 697px;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  padding-left: 100px;
+}
+.main-info .main-info-text button {
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-left: 130px;
+  background-color: transparent;
+  color: #fff;
+}
+.main-info-pic img {
+  padding-top: 70px;
+  padding-left: 70px;
+}
+.main-place {
+  background-image: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  width: 1320px;
+  height: 482px;
+  flex-shrink: 0;
+  text-align: center;
+  margin-top: 100px;
+  padding-top: 70px;
+  line-height: 80%;
+}
+
+.main-place h2 {
+  color: #070211;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: capitalize;
+}
+.main-place-span {
+  color: #f00;
+  margin-top: ;
+
+  text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px; /* 175% */
+  text-transform: capitalize;
+}
+.main-place button {
+  color: #fff;
+
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: #f00;
+  border-radius: 8px;
+  display: inline-flex;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: none;
+}
+
+/* Portfolo Syle */
+
+.main-port-text h3 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.main-port-text h1 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.main-port-text p {
+  color: rgba(7, 2, 17, 0.6);
+  width: 896px;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+}
+.main-port-img{
+  display: flex;
 }
